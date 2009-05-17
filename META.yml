@@ -1,0 +1,41 @@
+---
+abstract: 'Generator module for the CPAN Index Database'
+author:
+  - 'Adam Kennedy <adamk@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+  File::Remove: 1.42
+  Test::More: 0.42
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 0.88'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+module_name: CPANDB::Generator
+name: CPANDB-Generator
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  CPAN::SQLite: 0.197
+  DBD::SQLite: 1.25
+  DBI: 1.608
+  File::HomeDir: 0.86
+  File::Path: 2.07
+  File::Remove: 1.42
+  File::Spec: 3.30
+  File::Temp: 0.21
+  File::pushd: 1.00
+  Object::Tiny: 1.06
+  Probe::Perl: 0.01
+  Time::Elapsed: 0.26
+  perl: 5.8.5
+resources:
+  ChangeLog: http://fisheye2.atlassian.com/changelog/cpan/trunk/CPANDB-Generator
+  license: http://dev.perl.org/licenses/
+  repository: http://svn.ali.as/cpan/trunk/CPANDB-Generator
+version: 0.01
