@@ -6,10 +6,11 @@ build_requires:
   ExtUtils::MakeMaker: 6.42
   File::Remove: 1.42
   Test::More: 0.42
+  URI::file: 4.20
 configure_requires:
   ExtUtils::MakeMaker: 6.42
 distribution_type: module
-generated_by: 'Module::Install version 0.88'
+generated_by: 'Module::Install version 0.91'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -30,12 +31,18 @@ requires:
   File::Spec: 3.30
   File::Temp: 0.21
   File::pushd: 1.00
+  ORDB::CPANMeta: 0.01
+  ORDB::CPANUploads: 0.04
   Object::Tiny: 1.06
   Probe::Perl: 0.01
+  Process: 0.26
+  Process::Delegatable: 0.26
+  Process::Storable: 0.26
   Time::Elapsed: 0.26
+  Xtract::Publish: 0.10
   perl: 5.8.5
 resources:
   ChangeLog: http://fisheye2.atlassian.com/changelog/cpan/trunk/CPANDB-Generator
   license: http://dev.perl.org/licenses/
   repository: http://svn.ali.as/cpan/trunk/CPANDB-Generator
-version: 0.01
+version: 0.02
