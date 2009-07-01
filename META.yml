@@ -45,4 +45,4 @@ resources:
   ChangeLog: http://fisheye2.atlassian.com/changelog/cpan/trunk/CPANDB-Generator
   license: http://dev.perl.org/licenses/
   repository: http://svn.ali.as/cpan/trunk/CPANDB-Generator
-version: 0.04
+version: 0.05
