@@ -31,7 +31,7 @@ requires:
   File::Spec: 3.30
   File::Temp: 0.21
   File::pushd: 1.00
-  ORDB::CPANMeta: 0.01
+  ORDB::CPANMeta: 0.03
   ORDB::CPANUploads: 0.04
   Object::Tiny: 1.06
   Probe::Perl: 0.01
@@ -45,4 +45,4 @@ resources:
   ChangeLog: http://fisheye2.atlassian.com/changelog/cpan/trunk/CPANDB-Generator
   license: http://dev.perl.org/licenses/
   repository: http://svn.ali.as/cpan/trunk/CPANDB-Generator
-version: 0.03
+version: 0.04
