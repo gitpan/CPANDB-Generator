@@ -19,6 +19,7 @@ module_name: CPANDB::Generator
 name: CPANDB-Generator
 no_index:
   directory:
+    - examples
     - inc
     - t
 requires:
@@ -34,6 +35,7 @@ requires:
   File::Temp: 0.21
   File::pushd: 1.00
   ORDB::CPANMeta: 0.03
+  ORDB::CPANMeta::Generator: 0.07
   ORDB::CPANUploads: 0.04
   Object::Tiny: 1.06
   Params::Util: 1.00
@@ -42,10 +44,11 @@ requires:
   Process::Delegatable: 0.26
   Process::Storable: 0.26
   Time::Elapsed: 0.26
+  URI: 1.37
   Xtract::Publish: 0.10
   perl: 5.8.5
 resources:
   ChangeLog: http://fisheye2.atlassian.com/changelog/cpan/trunk/CPANDB-Generator
   license: http://dev.perl.org/licenses/
   repository: http://svn.ali.as/cpan/trunk/CPANDB-Generator
-version: 0.10
+version: 0.12
