@@ -25,6 +25,7 @@ no_index:
 requires:
   Algorithm::Dependency: 1.108
   Algorithm::Dependency::Source::DBI: 0.05
+  CPAN::Mini::Visit: 0.10
   CPAN::SQLite: 0.197
   DBD::SQLite: 1.25
   DBI: 1.608
@@ -35,8 +36,8 @@ requires:
   File::Temp: 0.21
   File::pushd: 1.00
   LWP::UserAgent: 5.819
-  ORDB::CPANMeta: 0.03
-  ORDB::CPANMeta::Generator: 0.07
+  ORDB::CPANMeta::Generator: 0.08
+  ORDB::CPANTesters: 0.09
   ORDB::CPANUploads: 0.04
   Object::Tiny: 1.06
   Params::Util: 1.00
@@ -53,4 +54,4 @@ resources:
   ChangeLog: http://fisheye2.atlassian.com/changelog/cpan/trunk/CPANDB-Generator
   license: http://dev.perl.org/licenses/
   repository: http://svn.ali.as/cpan/trunk/CPANDB-Generator
-version: 0.14
+version: 0.15
