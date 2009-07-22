@@ -21,7 +21,7 @@ DESCRIPTION
 
 METHODS
   new
-      my $cpandb = CPANDB::Generator->new(
+      my $cpan = CPANDB::Generator->new(
           cpan   => '/root/.cpan',
           sqlite => '/root/CPANDB.sqlite',
       );
@@ -46,10 +46,10 @@ METHODS
     The "dsn" method returns the DBI DSN that is used to connect to the
     generated database.
 
-  cpandb_sql
+  cpan_sql
     Once it has been fetched or updated from your CPAN mirror, the
-    "cpandb_sql" method returns the location of the CPAN::SQLite database
-    used by the CPAN client.
+    "cpan_sql" method returns the location of the CPAN::SQLite database used
+    by the CPAN client.
 
     This database is used as the source of the information that forms the
     core of the unified index database, and that the rest of the data will

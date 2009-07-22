@@ -4,11 +4,11 @@ use 5.008;
 use strict;
 use CPANDB::Generator;
 
-our $VERSION = '0.15';
+our $VERSION = '0.16';
 
 my $cpandb = CPANDB::Generator->new(
 	cpanmeta => 1,
-	minicpan => 'F:\minicpan',
+	minicpan => 'G:\minicpan',
 	trace    => 1,
 	warnings => 1,
 );
