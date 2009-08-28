@@ -19,12 +19,11 @@ module_name: CPANDB::Generator
 name: CPANDB-Generator
 no_index:
   directory:
-    - examples
     - inc
     - t
 requires:
   Algorithm::Dependency: 1.108
-  Algorithm::Dependency::Source::DBI: 0.05
+  Algorithm::Dependency::Source::DBI: 1.06
   CPAN::Mini::Visit: 0.11
   CPAN::SQLite: 0.197
   DBD::SQLite: 1.25
@@ -54,4 +53,4 @@ resources:
   ChangeLog: http://fisheye2.atlassian.com/changelog/cpan/trunk/CPANDB-Generator
   license: http://dev.perl.org/licenses/
   repository: http://svn.ali.as/cpan/trunk/CPANDB-Generator
-version: 0.16
+version: 0.17
